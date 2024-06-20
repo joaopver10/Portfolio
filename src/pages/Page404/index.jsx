@@ -2,7 +2,7 @@ import styles from './Page404.module.css';
 
 function Page404() {
   return (
-    <>
+    <section className={styles.page404}>
       <h2 className={styles.titulo2}>
         Parece que você se perdeu, a página que esta tentando acessar não
         existe.
@@ -13,7 +13,7 @@ function Page404() {
           Página Não Localizada!
         </strong>
       </div>
-    </>
+    </section>
   );
 }
 

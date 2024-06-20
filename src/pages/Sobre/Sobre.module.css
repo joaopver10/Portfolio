@@ -52,3 +52,25 @@
     width: 80px;
     height: 80px;
 }
+
+@media (max-width: 768px) {
+    .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+        padding-block: 40px;
+    }
+    .bio img {
+        max-width: 50%;
+    }
+}
+
+/* mobile m */
+@media (max-width: 480px) {
+    .icones {
+        gap: 0.5rem;
+    }
+    .icones img {
+        height: 40px;
+    }
+}
